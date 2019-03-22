@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <id>SAFE.Data.Common</id>
+    <Version>0.1.0</Version>
+    <title>SAFENetwork Data Common</title>
+    <Authors>oetyng</Authors>
+    <Owners>oetyng</Owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://discourse-cdn-sjc1.com/business5/uploads/safenetwork/original/2X/8/8c2c7956e10e3422ea691249d424de93f894da4b.png</iconUrl>
+    <Description>Common library for SAFE.AuthClient and SAFE.AppendOnlyDb, running on SAFENetwork (Safe Access For Everyone) - a decentralized, secure and anonymous data storage network.</Description>
+    <summary>SAFENetwork database and auth common classes.</summary>
+    <releaseNotes></releaseNotes>
+    <language>C#</language>
+    <PackageTags>maidsafe safenetwork oetyng decentralized</PackageTags>
+    <Copyright>2019 oetyng</Copyright>
+    <RepositoryUrl>https://github.com/oetyng/SAFE.Data.Common</RepositoryUrl>
+    <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Platforms>x64</Platforms>
+  </PropertyGroup>
+
+</Project>
