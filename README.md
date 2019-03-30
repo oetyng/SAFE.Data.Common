@@ -1,6 +1,6 @@
 ## SAFE.Data.Common
 
-Classes common to the SAFE.AppendOnlyDb, SAFE.AuthClient and similar libraries.
+Classes common to the SAFE.AppendOnlyDb, SAFE.MockAuthClient and similar libraries.
 
 ## Further Help
 
