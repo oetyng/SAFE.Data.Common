@@ -2,15 +2,29 @@
 
   <PropertyGroup>
     <id>SAFE.Data.Common</id>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
     <title>SAFENetwork Data Common</title>
     <Authors>oetyng</Authors>
     <Owners>oetyng</Owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://discourse-cdn-sjc1.com/business5/uploads/safenetwork/original/2X/8/8c2c7956e10e3422ea691249d424de93f894da4b.png</iconUrl>
-    <Description>Common library for SAFE.AuthClient and SAFE.AppendOnlyDb, running on SAFENetwork (Safe Access For Everyone) - a decentralized, secure and anonymous data storage network.</Description>
-    <summary>SAFENetwork database and auth common classes.</summary>
-    <releaseNotes></releaseNotes>
+    <iconUrl>https://hub.safedev.org/static/dapps_safe_netdrive.0c11caa9.png</iconUrl>
+    <Description>Common library for oetyng SAFE.* projects, running on SAFENetwork (Safe Access For Everyone) - a decentralized and autonomous data storage network.</Description>
+    <summary>SAFENetwork database and other projects' common classes.</summary>
+    <releaseNotes>
+      Added:
+      - AsyncDuplicateLock
+      - Compression
+      - EnumerableExt
+      - Serializer
+      - Newtonsoft.Json reference.
+      Changed:
+      - Package info
+      - Package icon
+      - Package version
+      Removed:
+      - IImDStore
+      - IStorageClient
+    </releaseNotes>
     <language>C#</language>
     <PackageTags>maidsafe safenetwork oetyng decentralized</PackageTags>
     <Copyright>2019 oetyng</Copyright>
@@ -20,5 +34,9 @@
     <LangVersion>8.0</LangVersion>
     <Platforms>x64</Platforms>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
 
 </Project>

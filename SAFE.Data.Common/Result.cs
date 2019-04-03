@@ -46,7 +46,6 @@ namespace SAFE.Data
         }
     }
 
-#pragma warning disable SA1502 // Element should not be on a single line
     public class KeyNotFound<T> : Result<T>
     {
         public KeyNotFound(string info = null)
@@ -116,5 +115,4 @@ namespace SAFE.Data
             : base(default, false, ErrorCodes.DATA_NOT_FOUND, $"Data not found! {info}")
         { }
     }
-    #pragma warning restore SA1502 // Element should not be on a single line
 }
