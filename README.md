@@ -1,6 +1,6 @@
 ## SAFE.Data.Common
 
-Classes common to the SAFE.AppendOnlyDb, SAFE.MockAuthClient and similar libraries.
+Common library for oetyng SAFE.* projects, running on SAFENetwork (Safe Access For Everyone) - a decentralized and autonomous data storage network.
 
 ## Further Help
 
